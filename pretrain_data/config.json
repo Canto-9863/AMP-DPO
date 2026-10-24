@@ -1,0 +1,16 @@
+{
+    "dataset": "swiss",
+    "download_dir": "data/uniprot",
+    "processed_dir": "data/processed_uniprot",
+    "training_dir": "data/training_data",
+    "min_length": 20,
+    "max_length": 100,
+    "chunk_size": 50000,
+    "sample_ratio": 1.0,
+    "max_samples": 1000000,
+    "batch_size": 64,
+    "train_ratio": 0.98,
+    "val_ratio": 0.01,
+    "test_ratio": 0.01,
+    "seed": 42
+  }
